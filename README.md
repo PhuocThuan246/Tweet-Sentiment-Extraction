@@ -11,12 +11,12 @@ Bài toán được mô hình hoá theo dạng **Question Answering (QA)**:
 - **Câu trả lời:** selected_text  
 
 Pipeline gồm:  
-✔ Preprocessing nhẹ  
-✔ Char-to-token span mapping  
-✔ Huấn luyện RoBERTa  
-✔ Ensemble logits  
-✔ Reranking spans  
-✔ Post-processing  
+- Preprocessing nhẹ  
+- Char-to-token span mapping  
+- Huấn luyện RoBERTa  
+- Ensemble logits  
+- Reranking spans  
+- Post-processing  
 
 Kết quả cuối đạt **Public Score: 0.71830**, tương đương **Top ~80** trên leaderboard.
 
